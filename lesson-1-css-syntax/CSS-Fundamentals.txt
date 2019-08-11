@@ -1,0 +1,33 @@
+
+CSS Syntax:
+
+- CSS is a collection of rules
+- Each rule targets a specififc tag or elemet on a HTML document.
+
+CSS rules have 2 parts:
+
+SELECTOR    DECLARATION
+#main-header {font-size:10px;}
+
+Selectors can target tag names, IDs, classes, etc.
+ex:
+---------------------------------------------------
+#header p {DECLARATION;}
+.comment div {DECLARATION;}
+li {DECLARATION;}
+---------------------------------------------------
+
+Declarations:
+
+Declarations contain Properties and values
+
+---------------------------------------------------
+#selector {font-size: 10px;}
+
+#selector{
+    font-size:10px;
+    color:red;
+}
+---------------------------------------------------
+
+

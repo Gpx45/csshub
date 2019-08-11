@@ -1,0 +1,37 @@
+
+div[id] {
+    background: grey;
+}
+
+a[title="Google"] {
+    color: red;
+}
+
+/*Pattern matching
+
+The tildae will pick any span tag whose class attribute has the deck class.
+Even if certain spans have more than just the deck class it will also pick out 
+once with more than the deck class.
+*/
+
+span[class~=deck] {
+    color:purple;
+}
+
+/*
+The dollar sign denotes "the end of"
+Here we are selecting any 
+*/
+a[href$="pdf"] {
+    color: greenyellow;
+}
+
+/*
+The Carrot "^" denotes the beginning of
+*/
+a[href^="http"] {
+    color: pink;
+}
+
+/*There are more pattermatching selectors, search and review them*/
+

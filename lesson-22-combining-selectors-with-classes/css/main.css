@@ -1,0 +1,17 @@
+
+
+article.featured-content{
+    background: red;
+}
+
+/*Here we are just selecting the first class
+to pick the article with featured content, but we dont want any other
+element with the featured-content to be selected so you choose the class with
+the element.*/
+
+div.featured-content{
+    background: blue;
+}
+
+
+

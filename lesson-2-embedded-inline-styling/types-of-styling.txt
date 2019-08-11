@@ -1,0 +1,25 @@
+
+3 Main ways of adding CSS to HTML documents:
+
+-Inline styling
+    PROS
+        - Good for very specialized rules
+
+    CONS
+        - Time consuming to style multiple elements
+        - Tricky to manage and update
+        - Can get very confusing
+
+
+-Embedded style sheets
+    PROS
+        -   Good for making a specific page that is very 
+            different from the others
+
+    CONS
+        - Time consuming to apply global styles
+        - Hard to maintain and update
+
+
+-External style sheets
+NEXT LESSON:

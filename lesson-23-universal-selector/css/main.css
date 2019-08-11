@@ -1,0 +1,12 @@
+
+
+/*A universal selectors is powerful because it selects all elements on a page*/
+
+*{
+    color: blue;
+}
+
+/*
+    Universal selector is not inherited but selects everything individually.
+*/
+

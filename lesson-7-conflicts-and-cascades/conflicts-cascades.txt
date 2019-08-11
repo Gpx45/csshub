@@ -1,0 +1,5 @@
+
+Conflicts are two Selectors/Rules 
+that are selecting the same tags BUT have different properties.
+
+

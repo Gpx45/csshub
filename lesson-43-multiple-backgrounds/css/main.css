@@ -1,0 +1,17 @@
+
+#banner{
+    background-color: #606060;
+    width: 100%;
+    height: 300px;
+    background-image: url(#), url(#); /*sequence of images, the order and the
+    delimitation of the comma matters.*/
+    background-repeat: no-repeat, no-repeat;/* first value applies to the first
+    image and the second to the second. If there is one value, it applies to all.*/
+    background-position: center, top left;
+    background-size: 300px, 100px;
+}
+
+
+
+
+

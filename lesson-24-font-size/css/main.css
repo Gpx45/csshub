@@ -1,0 +1,19 @@
+
+/*In term of measurement, there is absolute and relative size
+px is absolute and ems are a percentage.
+1em is 16px
+*/
+article{
+    font-size: 16px;
+}
+
+article h2{
+    font-size: 3em;
+}
+
+article p {
+    font-size: 500%;
+}
+
+
+

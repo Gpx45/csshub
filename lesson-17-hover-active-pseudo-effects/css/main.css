@@ -1,0 +1,27 @@
+
+/*
+Pseudo classes are denoted by colons ":" AFTER! the selection 
+(It must be after the selector.)
+*/
+
+/*
+Recap 
+Pseudo Claases are an extension to normal CSS selectors, to target
+more specific things
+    - Behavioral 
+    - Structural
+*/
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: purple;
+}
+
+

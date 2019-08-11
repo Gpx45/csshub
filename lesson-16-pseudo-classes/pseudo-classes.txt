@@ -1,0 +1,34 @@
+
+Pseudo Classes:
+
+Special keywords that go after selectors.
+
+They can be used to target speacial behavior states
+They also target more advanced elements.
+
+
+Pseudo Class groups:
+
+Dynamic:
+Based on bahavior 
+eg: hover effects
+
+Structural 
+advanced structural
+eg: parent-child relationships
+
+
+Dynamic Pseudo Classes:
+    Allows us to style an element in relation to user actions:
+    eg: 
+        Whether a link is being hovered over
+        Whether a button is being pressed
+        Whether a tick box has been checked.
+
+Structural Pseudo Classes:
+    Allow us to style elements based on advanced structural techniques not from
+    ordinary Class
+    eg:
+        The 5th tag in a list.
+        A parent tag that has no children.
+

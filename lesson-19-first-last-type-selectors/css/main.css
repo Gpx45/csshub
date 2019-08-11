@@ -1,0 +1,18 @@
+
+/*
+
+This will foucs more on the structural pseudo classes.
+*/
+
+
+article p:first-of-type {
+    font-weight: bold;
+}
+
+article p:last-of-type {
+    color:red;
+}
+
+
+
+

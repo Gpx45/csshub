@@ -1,0 +1,22 @@
+/* Targeting elements
+*/
+
+span{
+    color: blue;
+}
+
+span{
+    color: red;
+}
+
+/*
+Since CCS cascades the last rule that is the same 
+
+*/
+
+
+/*
+
+In this case the purple selector will win and the spans will be purple.
+
+*/

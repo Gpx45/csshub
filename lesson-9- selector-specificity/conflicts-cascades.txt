@@ -1,0 +1,38 @@
+
+
+Conflicts & Cascades:
+---------------------
+
+
+p {color:black;}
+p {color:red;}  <-- This rule will win
+
+
+ID selector WILL WIN, this is because it is more specific in the selection of the tag
+AND it has more points so it it is worth more in terms of points, then just the P tag selector alone.
+
+#main-content p {color:black} <-- This rule wins
+p {color:red:}
+
+
+How to determine specificity in tags (Point System)
+This basically determines which rules will be applied.
+
+---------------------
+IDs = 100 points    |
+Classes = 10 points |
+Elements = 1 point  |
+---------------------
+
+The more selectors you have the more points its worth, meaning they add up
+
+In this example:
+#main-content p {color:black} <-- This selector is worth 101 points
+
+Compared to this example
+p {color:red} <-- This is worth 1 point
+
+All you have to do is remember to point system and apply to the rules when
+editting your CSS.
+
+

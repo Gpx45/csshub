@@ -1,0 +1,17 @@
+
+/*
+
+This will foucs more on the structural pseudo classes.
+*/
+
+
+article p:first-child {
+    font-weight: bold;
+}
+
+article p:last-child {
+    color: red;
+}
+
+
+

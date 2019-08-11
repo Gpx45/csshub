@@ -1,0 +1,16 @@
+
+/*
+    Using the !important declaration overwrites any rules that its effecting 
+
+*/
+
+p {
+    color:red !important;
+}
+
+#main-content p {
+    color:green;
+}
+
+
+

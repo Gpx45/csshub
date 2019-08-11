@@ -1,0 +1,21 @@
+/* Targeting elements
+*/
+
+h2{
+    font-size: 32px;
+}
+
+#content-header{  /* This is a ID*/
+    font-size: 18px;
+    color: red;
+}
+
+span{
+    display: block;
+    color: blue;
+}
+
+.deck{ /* This is a class*/
+    color:red;
+}
+

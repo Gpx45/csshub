@@ -1,0 +1,32 @@
+
+/*
+
+This will foucs more on the structural pseudo classes.
+*/
+
+/*This will selector both the first li and the seventh.*/
+li:nth-child(1), li:nth-child(7){
+    font-weight: bold;
+}
+
+/*Now we will pick off only the even ones.*/
+
+/*
+li:nth-child(even){
+    background: grey;
+}
+
+li:nth-child(odd){
+    background: pink;
+}
+*/
+
+/*We will do a formula, this will color all odds green*/
+li:nth-child(2n + 1){ 
+    color:green;
+}
+
+
+
+
+

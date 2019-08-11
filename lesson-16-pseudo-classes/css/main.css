@@ -1,0 +1,14 @@
+
+/*
+Pseudo classes are denoted by colons ":" AFTER! the selection 
+(It must be after the selector.)
+*/
+
+a:hover {
+    color: red;
+}
+
+#main-content:hover {
+    background: red;
+}
+

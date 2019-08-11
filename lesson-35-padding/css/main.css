@@ -1,0 +1,14 @@
+
+.box{
+    margin: 30px 15px;
+    padding: 30px;
+    border: 1px solid #000;
+
+}
+
+/*
+    Here we have 2 divs that have margins applied to them.
+    If BOTH divs, and any container has a vertical margin applied to them, it 
+    will take the largest margin and collaspe the lesser margin. This is
+    called "Vertical Margin Collapse"
+*/

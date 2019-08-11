@@ -1,0 +1,12 @@
+#main-content > p {
+    color:red;
+}
+
+/*
+    This gives me only the direct children of #main-content
+    Not all of the decendants of the #main-content
+
+    In this case only the 2 p tags in main-content would be effected.
+    Not the p tag inside the sub-content element.
+    */
+
